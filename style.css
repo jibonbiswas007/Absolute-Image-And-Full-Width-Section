@@ -1,0 +1,122 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,500i,700,700i');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+    color: #313131;
+}
+a {-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #7B7B7B;
+    line-height: 1.9;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+.bigger-text {
+  padding: 0 48px;
+}
+.bigger-text .heading-subtitle {
+  line-height: 0;
+}
+.bigger-text h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.bigger-text .heading-subtitle p {}
+.bigger-text a {
+  background: #4752e9 none repeat scroll 0 0;
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 50px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
+.shadow-image-gallery {
+  position: relative;
+}
+.shadow-image-gallery img {
+  box-shadow: 0 0 50px #cdc0ce;
+  width: 55%;
+}
+.shadow-image-gallery img:nth-child(1) {
+  left: 50px;
+  position: relative;
+  top: -72px;
+}
+.shadow-image-gallery img:nth-child(2) {
+  bottom: 0;
+  position: absolute;
+  right: 20px;
+  z-index: 2;
+}
+.shadow-image-gallery img:nth-child(3) {
+  bottom: -60px;
+  left: -10px;
+  position: absolute;
+  width: 75%;
+  z-index: 3;
+}
